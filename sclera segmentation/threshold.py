@@ -22,7 +22,6 @@ def threshold(img: np.array, tolerance: float = 0.975,
         mask = red * green * blue
         img_res = refine(mask)
         tolerance *= tol_decrease_rate
-        img_res
     return img_res
 
 def refine(img):

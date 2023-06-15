@@ -36,8 +36,6 @@ def segment(img, fix_range=0, cuts=10, compactness=10,
     original, kmeans, ncut = nc.nCut(preprocessed, cuts=cuts, 
     compactness=compactness, n_cuts=n_cuts, thresh=n_thresh)
 
-    #ncut = calcola_area_e_filtra(ncut)
-
     img_threshold = threshold(retinex_img)
 
     test = calcola_area_e_filtra(ncut)

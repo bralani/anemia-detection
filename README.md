@@ -16,7 +16,7 @@ La repository è organizzata in tre cartelle principali:
 
 Per iniziare, segui queste istruzioni per l'installazione e l'utilizzo del codice e delle risorse nella repository:
 
-1. Clona questa repository sul tuo sistema locale utilizzando il comando: git clone https://github.com/bralani/anemia-detection.git
+1. Clona questa repository sul tuo sistema locale utilizzando il comando:```git clone https://github.com/bralani/anemia-detection.git```
 
 Se si desidera analizzare una foto non presente nel dataset si consiglia di leggere la documentazione per capire come scattare la foto, dopodicchè aprirla in un file .py e richiamare la funzione segment passando la foto come parametro come nell'esempio
 ```

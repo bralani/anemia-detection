@@ -43,7 +43,8 @@ img_threshold.save(path_cartella_destinazione+"nome_foto.jpg")
 
 ## Licenza
 
-//
+Si prega di fare riferimento al file [LICENSE](LICENSE) per ulteriori informazioni sui diritti e le restrizioni legati all'uso, alla modifica e alla distribuzione di questo software.
+
 
 ## Supporto
 

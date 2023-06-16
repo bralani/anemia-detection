@@ -1,5 +1,8 @@
 # Repository anemia-detection
 
+MIT License
+Copyright (c) [2023] [Balice Matteo]
+
 Benvenuti nella repository di anemia-detection! Questa repository contiene codice e risorse correlati per il processo di individuazione dell'anemia attraverso le immagini oculari.
 
 ## Contenuto della Repository

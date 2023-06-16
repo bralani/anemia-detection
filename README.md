@@ -19,6 +19,8 @@ La repository è organizzata in tre cartelle principali:
 
 5. **density_evaluation.ipynb** contiente uno script che definisce una funzione che calcola e stampa diversi punteggi di valutazione per un modello di classificazione. Sono calcolati i punteggi di: f1, f2, precision, recall, accuracy e roc_auc.
 
+6. **preprocessing.ipynnb** contiene uno script che definisce alcune funzioni di preelaborazione delle immagini e poi applica queste funzioni a un set di immagini di addestramento.
+
 ## Installazione e Utilizzo
 
 Per iniziare, segui queste istruzioni per l'installazione e l'utilizzo del codice e delle risorse nella repository:

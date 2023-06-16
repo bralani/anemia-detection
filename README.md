@@ -7,11 +7,15 @@ Benvenuti nella repository di anemia-detection! Questa repository contiene codic
 
 ## Contenuto della Repository
 
-La repository è organizzata in tre cartelle principali:
+La repository è organizzata in quattro cartelle principali:
 
 1. **database_sclere**: Questa cartella contiene il dataset di immagini oculari utilizzato per l'addestramento e la valutazione dei modelli di segmentazione della sclera. Le immagini "RAW" sono 218 e organizzate in sottocartelle per facilitare l'accesso e la gestione dei dati.
 
 2. **sclera_segmentation**: In questa cartella troverai il codice e gli script necessari per eseguire la segmentazione della sclera.
+
+3. **svm**: Contiene tutto il preprocessing dell'immagine e il modello svm finale.
+
+4. **unet**: Contiene il modello deep preaddestrato con le funzioni di preprocessing.
 
 3. **entire_workflow.ipynb**: contiene il workflow intero del progetto unito in un unico file (dalla segmentazione della sclera alla predizione finale).
 

@@ -15,9 +15,9 @@ La repository è organizzata in tre cartelle principali:
 
 3. **sclera_segmentation**: In questa cartella troverai il codice e gli script necessari per eseguire la segmentazione della sclera.
 
-4.generate_vessel_masks.ipynb contiene il codice per la segmentazione delle vene sclerali in immagini degli occhi utilizzando un modello di rete neurale convoluzionale (U-Net). Dopo una fase di preelaborazione delle immagini il codice esegue il loop su un DataFrame (df) contenente informazioni sui pazienti. Per ogni riga del DataFrame, viene eseguita la segmentazione delle vene sclerali sull'immagine corrispondente utilizzando il modello U-Net preaddestrato.
+4. **generate_vessel_masks.ipynb** contiene il codice per la segmentazione delle vene sclerali in immagini degli occhi utilizzando un modello di rete neurale convoluzionale (U-Net). Dopo una fase di preelaborazione delle immagini il codice esegue il loop su un DataFrame (df) contenente informazioni sui pazienti. Per ogni riga del DataFrame, viene eseguita la segmentazione delle vene sclerali sull'immagine corrispondente utilizzando il modello U-Net preaddestrato.
 
-5.Questo script definisce una funzione che calcola e stampa diversi punteggi di valutazione per un modello di classificazione. Sono calcolati i punteggi di: f1, f2, precision, recall, accuracy e roc_auc.
+5. **density_evaluation.ipynb** contiente uno script che definisce una funzione che calcola e stampa diversi punteggi di valutazione per un modello di classificazione. Sono calcolati i punteggi di: f1, f2, precision, recall, accuracy e roc_auc.
 
 ## Installazione e Utilizzo
 

@@ -16,17 +16,21 @@ La repository è organizzata in tre cartelle principali:
 
 Per iniziare, segui queste istruzioni per l'installazione e l'utilizzo del codice e delle risorse nella repository:
 
-Se si desidera analizzare una foto non presente nel dataset si consiglia di leggere la documentazione per capire come scattare la foto, dopodicchè aprirla in un file .py e richiamare la funzione segment passando la foto come parametro come nell'esempio
-es.
-```
-    import cv2
-
-    foto = cv2.imread(#pathfoto)
-    img_threshold, kmeans, sclera_ncut, ncut = segmentation.segment(foto)
-    img_threshold.save(path_cartella_destinazione+"nome_foto.jpg")
-```
-
 1. Clona questa repository sul tuo sistema locale utilizzando il comando: git clone https://github.com/bralani/anemia-detection.git
+
+Se si desidera analizzare una foto non presente nel dataset si consiglia di leggere la documentazione per capire come scattare la foto, dopodicchè aprirla in un file .py e richiamare la funzione segment passando la foto come parametro come nell'esempio
+```
+import cv2
+import numpy as np
+import segmentation
+import os
+from PIL import Image
+
+foto = cv2.imread(#pathfoto)
+img_threshold, kmeans, sclera_ncut, ncut = segmentation.segment(foto)
+img_threshold.save(path_cartella_destinazione+"nome_foto.jpg")
+```
+
 2. 
 
 ## Contribuzione

@@ -3,44 +3,43 @@
 MIT License
 Copyright (c) [2023] [Balice Matteo]
 
-Benvenuti nella repository di anemia-detection! Questa repository contiene codice e risorse correlati per il processo di individuazione dell'anemia attraverso le immagini oculari.
+Welcome to the anemia-detection repository! This repository contains code and related resources for the process of detecting anemia through ocular images.
 
-## Contenuto della Repository
+## Repository Contents
 
-La repository è organizzata in quattro cartelle principali:
+The repository is organized into four main folders:
 
-1. **database_sclere**: Questa cartella contiene il dataset di immagini oculari utilizzato per l'addestramento e la valutazione dei modelli di segmentazione della sclera. Le immagini "RAW" sono 218 e organizzate in sottocartelle per facilitare l'accesso e la gestione dei dati.
+1. **database_sclere**: This folder contains the dataset of ocular images used for training and evaluating sclera segmentation models. The "RAW" images are 218 and organized into subfolders to facilitate data access and management.
 
-2. **sclera_segmentation**: In questa cartella troverai il codice e gli script necessari per eseguire la segmentazione della sclera.
+2. **sclera_segmentation**: In this folder, you will find the code and scripts necessary to perform sclera segmentation.
 
-3. **svm**: Contiene tutto il preprocessing dell'immagine e il modello svm finale.
+3. **svm**: It contains all image preprocessing and the final svm model.
 
-4. **unet**: Contiene il modello deep preaddestrato con le funzioni di preprocessing.
+4. **unet**: It contains the deep pre-trained model with preprocessing functions.
 
-3. **entire_workflow.ipynb**: contiene il workflow intero del progetto unito in un unico file (dalla segmentazione della sclera alla predizione finale).
+5. **entire_workflow.ipynb**: contains the entire project workflow combined into a single file (from sclera segmentation to final prediction).
 
-4. **generate_vessel_masks.ipynb** contiene il codice per la segmentazione delle vene sclerali in immagini degli occhi utilizzando un modello di rete neurale convoluzionale (U-Net). Dopo una fase di preelaborazione delle immagini il codice esegue il loop su un DataFrame (df) contenente informazioni sui pazienti. Per ogni riga del DataFrame, viene eseguita la segmentazione delle vene sclerali sull'immagine corrispondente utilizzando il modello U-Net preaddestrato.
+6. **generate_vessel_masks.ipynb**: contains the code for segmenting scleral vessels in eye images using a convolutional neural network (U-Net) model. After preprocessing the images, the code loops through a DataFrame (df) containing patient information. For each row of the DataFrame, scleral vessel segmentation is performed on the corresponding image using the pretrained U-Net model.
 
-5. **density_evaluation.ipynb** contiente uno script che definisce una funzione che calcola e stampa diversi punteggi di valutazione per un modello di classificazione. Sono calcolati i punteggi di: f1, f2, precision, recall, accuracy e roc_auc.
+7. **density_evaluation.ipynb**: contains a script that defines a function to calculate and print various evaluation scores for a classification model. Scores calculated include: f1, f2, precision, recall, accuracy, and roc_auc.
 
-6. **preprocessing.ipynb** contiene uno script che definisce alcune funzioni di preelaborazione delle immagini e poi applica queste funzioni a un set di immagini di addestramento.
+8. **preprocessing.ipynb**: contains a script that defines some image preprocessing functions and then applies these functions to a set of training images.
 
-6. **sclera_segmentation.ipynb** mostra passo dopo passo la segmentazione automatica della sclera.
+9. **sclera_segmentation.ipynb**: shows step by step automatic sclera segmentation.
 
-## Installazione e Utilizzo
+## Installation and Usage
 
-Per iniziare, segui queste istruzioni per l'installazione e l'utilizzo del codice e delle risorse nella repository:
+To get started, follow these instructions for installing and using the code and resources in the repository:
 
-1. Clona questa repository sul tuo sistema locale utilizzando il comando:
+1. Clone this repository to your local system using the command:
 ```git clone https://github.com/bralani/anemia-detection.git```
 
-2. Seguire il workflow del file entire_workflow.ipynb
+2. Follow the workflow in the entire_workflow.ipynb file.
 
-## Licenza
+## License
 
-Si prega di fare riferimento al file [LICENSE](LICENSE) per ulteriori informazioni sui diritti e le restrizioni legati all'uso, alla modifica e alla distribuzione di questo software.
+Please refer to the [LICENSE](LICENSE) file for more information on the rights and restrictions related to the use, modification, and distribution of this software.
 
+## Support
 
-## Supporto
-
-Per qualsiasi domanda o problema, puoi aprire una issue nella sezione Issue di questa repository. Faremo del nostro meglio per rispondere nel minor tempo possibile.
+For any questions or issues, you can open an issue in the Issue section of this repository. We will do our best to respond as quickly as possible.
